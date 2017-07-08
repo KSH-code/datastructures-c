@@ -1,26 +1,26 @@
 /**
  * @author [KSH-code]
  * @email [tjdgnsqn133@gmail.com]
- * @create date 2017-07-08 05:08:23
- * @modify date 2017-07-08 05:39:41
- * @desc [알고리즘 스터디 피보나치 수열]
+ * @create date 2017-07-08 05:39:10
+ * @modify date 2017-07-08 05:39:10
+ * @desc [알고리즘 스터디 하노이 타워]
 */
 #include <stdio.h>
-#include <locale.h>
-int Fibo(int n)
+void Hanoi(int n, char from, char by, char to)
 {
-    if (n <= 1)
-        return 0;
-    else if (n == 2)
-        return 1;
+    if (n == 1)
+    {
+        printf("%d %c -> %c\n", n, from, to);
+    }
     else
-        return Fibo(n - 1) + Fibo(n - 2);
+    {
+        Hanoi(n - 1, from, to, by);
+        printf("%d %c -> %c\n", n, from, to);
+        Hanoi(n - 1, by, from, to);
+    }
 }
 int main()
 {
-    int n = 10;
-    setlocale(LC_ALL, "");
-    wprintf(L"피보나치 수열 %d 번째 값은 %d\n", n, Fibo(n));
-    system("pause");
+    Hanoi(4, 'A', 'B', 'C');
     return 0;
 }

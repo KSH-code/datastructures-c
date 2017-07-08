@@ -1,2 +1,0 @@
-# datastructures-c
-algorithim study

@@ -11,9 +11,11 @@ typedef struct _wallet
     int coin100;
     int bill5000;
 } Wallet;
+
 /*
     Wallet 자료형 정의
 */
+
 void TakeOutMoney(Wallet *w, int c, int b)
 {
     w->coin100 = c;

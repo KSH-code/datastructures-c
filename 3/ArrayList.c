@@ -6,11 +6,13 @@
  * @desc [ArrayList.h를 구현]
 */
 #include "ArrayList.h"
+
 void ListInit(List *plist)
 {
     (plist->numOfData) = 0;
     (plist->curPosition) = -1;
 }
+
 void LInsert(List *plist, LData data)
 {
     if (plist->numOfData >= LIST_LEN)
@@ -20,6 +22,7 @@ void LInsert(List *plist, LData data)
     }
     plist->arr[(plist->numOfData)++] = data;
 }
+
 int LFirst(List *plist, LData *pdata)
 {
     if (plist->numOfData == 0)

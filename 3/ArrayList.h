@@ -28,4 +28,5 @@ int LFirst(List *plist, LData *pdata);
 int LNext(List *plist, LData *pdata);
 
 LData LRemove(List *plist); //참조한 데이터 삭제
+
 int LCount(List *plist);    //저장된 데이터의 수 리턴

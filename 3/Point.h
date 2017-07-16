@@ -7,6 +7,7 @@
 */
 #ifndef Point_H
 #define Point_H
+
 typedef struct _point
 {
     int x;

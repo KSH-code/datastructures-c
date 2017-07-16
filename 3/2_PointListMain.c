@@ -46,7 +46,7 @@ int main(void)
         while (LNext(&list, &pos))
             ShowPointPos(pos);
     }
-    printf("\n");
+    printf("\n\n");
 
     compPos.x = 2;
     compPos.y = 0;

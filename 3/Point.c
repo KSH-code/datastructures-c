@@ -13,6 +13,7 @@ void SetPointPos(Point *pos, int x, int y)
     pos->x = x;
     pos->y = y;
 }
+
 void ShowPointPos(Point *pos)
 {
     printf("[%d, %d]\n", pos->x, pos->y);

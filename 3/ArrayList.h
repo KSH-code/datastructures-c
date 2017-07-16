@@ -5,12 +5,13 @@
  * @modify date 2017-07-14 10:33:19
  * @desc [ListMain.c에서 사용할 라이브러리]
 */
+#include "Point.h"
 #define TRUE 1
 #define FALSE 0
 
 #define LIST_LEN 100
 
-typedef int LData;
+typedef int *LData;
 
 typedef struct __ArrayList
 {

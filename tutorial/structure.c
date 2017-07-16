@@ -1,10 +1,10 @@
 #include <stdio.h>
 //http://jdpb.tistory.com/entry/C%EC%96%B8%EC%96%B4-typedef%EC%99%80-%EA%B5%AC%EC%A1%B0%EC%B2%B4-%ED%99%9C%EC%9A%A9
 typedef int Hello; //int 자료형을 Hello로도 사용 가능하다.
-struct point{//구조체
+struct __point{//구조체
 	int x,y;
 };
-typedef struct point Point;
+typedef struct __point _Point;
 
 typedef struct radius{
 	int a;

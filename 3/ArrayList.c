@@ -38,7 +38,7 @@ int LNext(List *plist, LData *pdata)
         return FALSE;
     }
     (plist->curPosition)++;
-    *pdata = plist->arr[plist -> curPosition];
+    *pdata = plist->arr[plist->curPosition];
     return TRUE;
 }
 LData LRemove(List *plist)

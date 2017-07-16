@@ -1,5 +1,13 @@
 {
     "files.associations": {
-        "arraylist.h": "c"
+        "arraylist.h": "c",
+        "corecrt_malloc.h": "c",
+        "structure.c": "cpp",
+        "point.c": "cpp",
+        "stdlib.h": "c",
+        "vcruntime.h": "c",
+        "corecrt.h": "c",
+        "stddef.h": "c",
+        "dlinkedlist.h": "c"
     }
 }

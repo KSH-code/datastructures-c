@@ -24,11 +24,11 @@ int main()
     int idx = LSearch(arr, sizeof(arr) / 4, 9);
     if (idx == -1)
     {
-        //실패
+        printf("fail\n");
     }
     else
     {
-        //성공
+        printf("%d\n", arr[idx]);
     }
     system("pause");
     return 0;

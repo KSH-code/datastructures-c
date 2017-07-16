@@ -26,6 +26,7 @@ void FInsert(List *list, LData data)
     list->head->next = newNode;
     (list->numOfData)++;
 }
+
 void SInsert(List *list, LData data)
 {
     Node *newNode = (Node *)malloc(sizeof(Node));
@@ -38,6 +39,7 @@ void SInsert(List *list, LData data)
     pred->next = newNode;
     (list->numOfData)++;
 }
+
 void LInsert(List *list, LData data)
 {
     if (list->comp == NULL)
@@ -55,6 +57,7 @@ int LFirst(List *list, LData *data)
     *data = list->cur->data;
     return TRUE;
 }
+
 int LNext(List *list, LData *data)
 {
     if (list->cur->next == NULL)
@@ -65,6 +68,7 @@ int LNext(List *list, LData *data)
     *data = list->cur->data;
     return TRUE;
 }
+
 LData LRemove(List *list)
 {
     Node *rpos = list->cur;
@@ -77,10 +81,12 @@ LData LRemove(List *list)
     (list->numOfData)--;
     return rdata;
 }
+
 int LCount(List *list)
 {
     return list->numOfData;
 }
+
 void SetSortRule(List *list, int (*comp)(LData d1, LData d2))
 {
     list->comp = comp;

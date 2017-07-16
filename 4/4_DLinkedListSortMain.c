@@ -20,7 +20,7 @@ int main(void)
     List list;
     int data;
     ListInit(&list);
-    
+
     SetSortRule(&list, WhoIsPrecede);
 
     LInsert(&list, 11);
@@ -56,5 +56,6 @@ int main(void)
             printf("%d ", data);
     }
     system("pause");
+
     return 0;
 }

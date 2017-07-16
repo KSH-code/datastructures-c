@@ -17,6 +17,7 @@ typedef struct _node
     LData data;
     struct _node *next;
 } Node;
+
 typedef struct _linkedList
 {
     Node *head;
@@ -25,6 +26,7 @@ typedef struct _linkedList
     int numOfData;
     int (*comp)(LData d1, LData d2);
 } LinkedList;
+
 typedef LinkedList List;
 
 void ListInit(List *list);

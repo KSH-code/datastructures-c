@@ -47,5 +47,6 @@ int main(void)
             printf("%d ", data);
     }
     system("pause");
+    
     return 0;
 }

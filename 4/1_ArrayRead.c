@@ -25,5 +25,6 @@ int main(void)
     for (i = 0; i < readCount; i++)
         printf("%d ", arr[i]);
     system("pause");
+    
     return 0;
 }

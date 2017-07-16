@@ -12,6 +12,7 @@ int Factorial(int num)
         return 1;
     return Factorial(num - 1) * num;
 }
+
 int main()
 {
     printf("%d\n", Factorial(10));

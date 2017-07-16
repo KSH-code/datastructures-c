@@ -19,6 +19,7 @@ void Hanoi(int n, char from, char by, char to)
         Hanoi(n - 1, by, from, to);
     }
 }
+
 int main()
 {
     Hanoi(4, 'A', 'B', 'C');

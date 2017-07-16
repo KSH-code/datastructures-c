@@ -16,6 +16,7 @@ int Fibo(int n)
     else
         return Fibo(n - 1) + Fibo(n - 2);
 }
+
 int main()
 {
     int n = 10;

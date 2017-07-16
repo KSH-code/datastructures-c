@@ -19,6 +19,7 @@ int BSearchRecur(int arr[], int f, int l, int target)
     else
         return BSearchRecur(arr, mid + 1, l, target);
 }
+
 int main()
 {
     int arr[] = {1, 3, 5, 7, 9};

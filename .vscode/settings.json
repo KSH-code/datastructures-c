@@ -8,6 +8,9 @@
         "vcruntime.h": "c",
         "corecrt.h": "c",
         "stddef.h": "c",
-        "dlinkedlist.h": "c"
+        "dlinkedlist.h": "c",
+        "stdio.h": "c",
+        "clinkedlist.h": "c",
+        "dblinkedlist.h": "c"
     }
 }

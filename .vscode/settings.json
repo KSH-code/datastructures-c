@@ -11,6 +11,9 @@
         "dlinkedlist.h": "c",
         "stdio.h": "c",
         "clinkedlist.h": "c",
-        "dblinkedlist.h": "c"
+        "dblinkedlist.h": "c",
+        "2_linkedread.c": "cpp",
+        "arraybasestack.h": "c",
+        "listbasestack.h": "c"
     }
 }
